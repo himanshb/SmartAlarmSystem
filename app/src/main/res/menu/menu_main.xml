@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pc.smartalarmsystem.QuestionsActivity">
+    <item
+        android:title="Level Easy"
+        android:id="@+id/id_level_Easy"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="Level Medium"
+        android:id="@+id/id_level_Medium"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="Level Hard"
+        android:id="@+id/id_level_Hard"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="All Alarms"
+        android:id="@+id/id_cancelAlarm"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="Set Reminders"
+        android:id="@+id/id_reminder"
+        android:orderInCategory="102"
+        app:showAsAction="never"
+        />
+</menu>
